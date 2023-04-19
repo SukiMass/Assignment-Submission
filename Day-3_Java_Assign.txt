@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Age_ToVote {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan=new Scanner(System.in);
+		int age=scan.nextInt();
+		scan.close();
+		if(age>=18) {
+			System.out.println("You're eligible to vote in the election");
+		}
+		else {
+			System.out.println("You are not eligible to vote");
+		}
+
+	}
+
+}
